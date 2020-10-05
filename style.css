@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+body{
+background-color: #3f6058;
+}
+
+.nameOfInputUserNameForView{
+    font-size: 20px;
+    text-align: left;
+    color: white;
+    font-family: 'Architects Daughter';
+    width: 250px;
+}
+
+.popap{
+    position: absolute;
+    background-color: #428368;
+    width: 400px;
+    height: 500px;
+    left:40%;
+    border-radius: 10px;
+    box-shadow: 8px 8px 30px 1px gray;
+
+}
+
+.titleOfPopap{
+    border-radius: 10px;
+    padding: 40px 0px 40px 0px;
+    margin: 0px;
+    font-size: 20px;
+    text-align: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(66,131,104,1) 50%, rgba(0,212,255,1) 100%);
+    color: white;
+    font-family: 'Architects Daughter';
+
+}
+
+.btnClosePopap{
+    display: inline-block;
+    position: absolute;
+    background-image: url('images/2.png');
+    background-repeat: no-repeat;
+    padding: 10px;
+    right: 10px;
+    top: 10px;
+    background-position: right;
+    background-size: 20px;
+}
+.close:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.nameOfInputWithName{
+    margin: 20px 0px 5px 4px;
+}
+
+.logic{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+}
+input{
+    background-color: gray;
+}
+.inputName {
+    position: absolute;
+    margin: 0px 0px 0px 5px;
+
+}
+
+.inputSurname{
+    position: absolute;
+    margin: 0px 0px 0px 5px;
+}
+
+.inputAge{
+    position: absolute;
+    margin: 0px 0px 0px 5px;
+}
+
+.nameOfInputWithSurname{
+    margin: 30px 0px 5px 4px;
+}
+
+.nameOfInputWithAge{
+    margin: 30px 0px 5px 4px;
+}
+
+.btnOk{
+    position: absolute;
+    text-align: center;
+    left: 25%;
+    bottom: 10px;
+    width: 200px;
+    background-color: #020024;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+.btnOk:hover{
+    background-color: #040042;
+    opacity: 0.7;
+}
